@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    margin-left:10px;
+}
+
+h1, h3{
+    margin:0;
+}
+
+.logo{
+    float:left;
+}
+.titulo{
+    float:right;
+    text-align:right;
+    margin-right:50px;
+}
+
+.principal{
+    font-size:1.5em;
+}
+
+.border{
+    border: solid;
+}

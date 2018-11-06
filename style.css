@@ -1,6 +1,19 @@
-@media screen and (min-width:950px){
+@media screen and (min-width:750px){
   .jobs{width: 300px; height: 200px; margin: 0;}
   .alinhamento{justify-content: center;}
+}
+
+@media screen and (max-width:749px){
+    .jobs{width:100%;}
+    .alinhamento{justify-content: center;}
+}
+
+@media screen and (min-width:550px) and (max-width:700px){
+    hr{opacity:0}
+}
+
+@media screen and (max-width:549px){
+    .logo{float: center;}
 }
 
 body, html {
@@ -22,25 +35,20 @@ h1, h2{
     padding: 0;
 }
 
-
-
 .logo{
     float:left;
     margin-left: 10px;
-
 }
+
 .titulo{
     float:right;
     text-align: right;
     margin-right:40px;
-
-
 }
 
 .principal{
     font-size: 40px;
 }
-
 
 .slide{
   width: 100%
@@ -53,6 +61,8 @@ h1, h2{
   color: #A4A4A4;
 }
 
+
+
 .border{
     border: solid;
 }
@@ -62,8 +72,13 @@ h1, h2{
   flex-wrap: wrap;
 }
 
-.titulos_jobs{
+.descricao_jobs{
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+.subdescricao_jobs{
+  text-align: center;
+  font-size: 15px;
 }
